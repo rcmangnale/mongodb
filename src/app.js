@@ -11,7 +11,7 @@ mongoose.connect("mongodb://localhost:27017/jsdata",
 .then(() =>console.log("connection Successfull.."))
 .catch((err) => console.log(err));
 
-//schema 
+//schema create 
 
 const playListSchema = new mongoose.Schema({
     name:{
